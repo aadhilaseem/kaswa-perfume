@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collection | Kaswa Perfume</title>
+  <meta name="description" content="The full Kaswa collection: six 50ml extrait de parfums. Filter by fresh, woody, musky or fruity and order on WhatsApp.">
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" href="images/logo-gold.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="brand" aria-label="Kaswa home">
+      <span class="logo-mark"></span>
+      <span class="brand__word">KASWA</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="active">Collection</a></li>
+      <li><a href="index.html#story">Our Story</a></li>
+      <li><a href="index.html#wholesale">Wholesale</a></li>
+    </ul>
+    <a class="btn nav__cta" data-wa data-magnetic>Order Now</a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </nav>
+
+  <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="products.html">Collection</a>
+    <a href="index.html#story">Our Story</a>
+    <a href="index.html#wholesale">Wholesale</a>
+    <div class="menu__foot">@kaswa_perfume</div>
+  </div>
+
+  <main>
+    <header class="page-hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <span class="eyebrow reveal">Extrait de Parfum · 50ml</span>
+      <h1 class="display split">The <em>Collection</em></h1>
+      <p class="reveal" style="--d:.3s">Six signature scents. Tap any bottle to order it on WhatsApp.</p>
+    </header>
+
+    <div class="filters reveal" style="--d:.4s">
+      <button class="filter on" data-filter="all">All</button>
+      <button class="filter" data-filter="fresh">Fresh</button>
+      <button class="filter" data-filter="woody">Woody</button>
+      <button class="filter" data-filter="musky">Musky</button>
+      <button class="filter" data-filter="fruity">Fruity</button>
+    </div>
+
+    <section class="grid reveal" style="--d:.5s" data-scents></section>
+
+    <section class="section cta">
+      <div class="cta__big" aria-hidden="true">KASWA</div>
+      <h2 class="display split">Need help <em>choosing?</em></h2>
+      <a class="btn btn--solid reveal" style="--d:.3s" data-wa="Hi Kaswa, can you help me choose a perfume?" data-magnetic>Ask on WhatsApp
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <a href="index.html" class="brand"><span class="logo-mark"></span><span class="brand__word">KASWA</span></a>
+      <p>Extrait de parfum, blended to linger.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="products.html">Collection</a>
+      <a href="index.html#story">Our Story</a>
+      <a href="index.html#wholesale">Wholesale</a>
+    </div>
+    <div>
+      <h4>Connect</h4>
+      <a data-ig>Instagram · @kaswa_perfume</a>
+      <a data-wa>WhatsApp</a>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Kaswa Perfume. All rights reserved.</span>
+      <span>قصواء</span>
+    </div>
+  </footer>
+
+  <a class="wa" data-wa aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.130 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.78 14.06c-.24.68-1.42 1.3-1.950 1.35-.5.05-1.13.07-1.82-.11-.42-.13-.96-.31-1.65-.61-2.9-1.25-4.79-4.17-4.94-4.360-.14-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.01-2.41.27-.29.58-.36.78-.36h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.14.07.15.12.32.02.51-.1.19-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.13.59.17.29.74 1.220 1.59 1.97 1.09.97 2.01 1.27 2.3 1.42.29.14.46.12.63-.07.17-.19.72-.84.92-1.13.19-.29.38-.24.65-.14.26.1 1.68.79 1.97.94.29.14.48.22.55.34.07.12.07.7-.17 1.38Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
